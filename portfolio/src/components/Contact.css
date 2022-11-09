@@ -1,0 +1,25 @@
+.body-container {
+  background-color: darkmagenta;
+  padding: 25px;
+}
+
+.contact-CSS {
+  font-size: 55px;
+  color: white;
+  text-align: center;
+}
+
+.link-text-CSS {
+  font-size: 45px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+a { 
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
