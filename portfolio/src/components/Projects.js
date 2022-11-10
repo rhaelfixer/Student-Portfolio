@@ -14,9 +14,9 @@ const Projects = () => {
   return (
     <>
       <br />
-      <h1 className="fadein-zoomin-CSS Projects-CSS">Projects</h1>
+      <h1 className="Projects-CSS fadein-zoomin-CSS">Projects</h1>
       <br />
-      <h3 className="fadein-zoomin-CSS projects-line-CSS">
+      <h3 className="projects-line-CSS fadein-zoomin-CSS">
         Here are a list of Projects that I have made:
       </h3>
       <br />
