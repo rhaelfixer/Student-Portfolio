@@ -9,7 +9,7 @@ const Resume = () => {
   return (
     <>
       <br />
-      <img src={pic} className="rounded mx-auto d-block pic-CSS" alt="pic" />
+      <img src={pic} className="rounded mx-auto d-block .pic-CSS" alt="pic" />
       <h1 className="resume">Resume</h1>
       <br />
       <div className="row g-3">
