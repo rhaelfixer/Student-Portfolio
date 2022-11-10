@@ -7,3 +7,18 @@
   font-size: 35px;
   margin: 35px;
 }
+
+.fade-in-zoom-in-CSS {
+  animation: zoom-in 2s ease;
+}
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(0.5, 0.5);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+}

@@ -7,9 +7,9 @@ const About = () => {
   return (
     <>
       <br />
-      <h1 className="about">About Me</h1>
+      <h1 className="fade-in-zoom-in-CSS about">About Me</h1>
       <br />
-      <h3 className="about-me">
+      <h3 className="fade-in-zoom-in-CSS about-me">
         A creative software engineer, I have been expanding what is possible
         with code in order to make life more efficient. I first became
         interested in software development during high school where I had make a

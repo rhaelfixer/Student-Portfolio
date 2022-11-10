@@ -1,11 +1,11 @@
-.resume {
+.resume-CSS {
   font-size: 75px;
   text-align: center;
 }
 
 .pic-CSS {
   height: 375px;
-  width: 300px;
+  width: 250px;
 }
 
 .resume-headline-CSS {
@@ -15,4 +15,19 @@
 
 .resume-line-CSS {
   font-size: 35px;
+}
+
+.fadeinzoomin-CSS {
+  animation: zoom-in 2s ease;
+}
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(0.5, 0.5);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
 }

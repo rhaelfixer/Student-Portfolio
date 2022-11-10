@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
+import "animate.css";
 import image1 from "../images/tic-tac-toe.png";
 import image2 from "../images/heroku-proxy.png";
 import Container from 'react-bootstrap/Container';
@@ -13,9 +14,9 @@ const Projects = () => {
   return (
     <>
       <br />
-      <h1 className="Projects-CSS">Projects</h1>
+      <h1 className="fadein-zoomin-CSS Projects-CSS">Projects</h1>
       <br />
-      <h3 className="projects-line-CSS">
+      <h3 className="fadein-zoomin-CSS projects-line-CSS">
         Here are a list of Projects that I have made:
       </h3>
       <br />
@@ -24,10 +25,10 @@ const Projects = () => {
           <Col>
             <img
               src={image1}
-              className="rounded mx-auto d-block image2-CSS"
+              className="animate__animated animate__fadeInLeft rounded mx-auto d-block image2-CSS"
               alt="tic-tac-toe"
             />
-            <figcaption className="projects-line-CSS">
+            <figcaption className="animate__animated animate__fadeInLeft projects-line-CSS">
               <a
                 href="https://pages.git.generalassemb.ly/rhaelfixer/Project-1-TicTacToe/"
                 className="img-text-CSS"
@@ -39,10 +40,10 @@ const Projects = () => {
           <Col>
             <img
               src={image2}
-              className="rounded mx-auto d-block image2-CSS"
+              className="animate__animated animate__fadeInRight rounded mx-auto d-block image2-CSS"
               alt="CRUD"
             />
-            <figcaption className="projects-line-CSS">
+            <figcaption className="animate__animated animate__fadeInRight projects-line-CSS">
               <a
                 href="https://best-heroku-proxy.herokuapp.com"
                 className="img-text-CSS"

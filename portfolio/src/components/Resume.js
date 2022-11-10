@@ -1,5 +1,4 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.css";
 import pic from "../images/pic.jpg";
 
 // CSS
@@ -9,10 +8,14 @@ const Resume = () => {
   return (
     <>
       <br />
-      <img src={pic} className="rounded mx-auto d-block pic-CSS" alt="pic" />
-      <h1 className="resume">Resume</h1>
+      <img
+        src={pic}
+        className="rounded mx-auto d-block pic-CSS fadeinzoomin-CSS"
+        alt="pic"
+      />
+      <h1 className="resume-CSS fadeinzoomin-CSS">Resume</h1>
       <br />
-      <div className="row g-3">
+      <div className="row g-3 fadeinzoomin-CSS">
         <div className="col">
           <h3 className="text-center resume-headline-CSS">Name:</h3>
           <h3 className="text-center resume-line-CSS">Jimmy Lim Sze Hong</h3>
@@ -24,7 +27,7 @@ const Resume = () => {
       </div>
       <br />
       <br />
-      <h3 className="text-center resume-line-CSS">
+      <h3 className="text-center resume-line-CSS fadeinzoomin-CSS">
         Education Background:
         <ul className="list-group list-group-flush text-center">
           <li className="list-group-item">
@@ -43,7 +46,7 @@ const Resume = () => {
       </h3>
       <br />
       <br />
-      <div className="row g-3">
+      <div className="row g-3 fadeinzoomin-CSS">
         <div className="col">
           <h3 className="text-center resume-headline-CSS">Soft Skills:</h3>
           <h3 className="text-center resume-line-CSS">Crtitical Thinking</h3>
