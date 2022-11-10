@@ -23,9 +23,9 @@ export default function Navbar() {
       </div>
       <div className="col-md-9 header-CSS">
         <h3 className="h3-CSS">
-          <nav className="navbar">
+          <nav className="navbar" onClick={() => setToggle(!toggle)}>
             <Nav className={toggle ? "nav-menu" : "nav-menu active"}>
-              <Link className="link-CSS" to="/">
+              <Link className="link-CSS" to="/" >
                 About
               </Link>
               <Link className="link-CSS" to="/projects">
