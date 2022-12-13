@@ -1,11 +1,12 @@
 .About-CSS {
   font-size: 75px;
   text-align: center;
+  margin: 35px;
 }
 
 .about-me-CSS {
   font-size: 35px;
-  margin: 35px;
+  margin: 35px 100px;
 }
 
 .fade-in-zoom-in-CSS {

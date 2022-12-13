@@ -9,12 +9,13 @@
 }
 
 .resume-headline-CSS {
-  font-size: 35px;
+  font-size: 50px;
   text-decoration: underline;
 }
 
 .resume-line-CSS {
   font-size: 35px;
+  margin: 0px 175px;
 }
 
 .fadeinzoomin-CSS {
@@ -31,3 +32,33 @@
     opacity: 1;
   }
 }
+
+.fadeinleft-CSS {
+  animation: fadein-left 1s ease;
+}
+
+@keyframes fadein-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-75%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+.fadeinright-CSS {
+  animation: fadein-right 1s ease;
+}
+
+@keyframes fadein-right {
+  0% {
+    opacity: 0;
+    transform: translateX(75%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}  
