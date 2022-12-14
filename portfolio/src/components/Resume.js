@@ -37,7 +37,7 @@ const Resume = () => {
       </div>
       <br />
       <br />
-      <AnimationOnScroll animateIn="animate__backInLeft">
+      <AnimationOnScroll animateIn="animate__backInLeft" animateOnce>
         <h3 className="text-center resume-headline-CSS">
           Professional Experience:
         </h3>
@@ -86,7 +86,7 @@ const Resume = () => {
       </AnimationOnScroll>
       <br />
       <br />
-      <AnimationOnScroll animateIn="animate__backInRight">
+      <AnimationOnScroll animateIn="animate__backInRight" animateOnce>
         <h3 className="text-center resume-headline-CSS">
           Education Background:
         </h3>
@@ -111,7 +111,7 @@ const Resume = () => {
       <br />
       <div className="row g-3">
         <div className="col">
-          <AnimationOnScroll animateIn="animate__backInLeft">
+          <AnimationOnScroll animateIn="animate__backInLeft" animateOnce>
             <ListGroup className="text-center resume-headline-CSS">
               Hard Skills:
             </ListGroup>
@@ -174,7 +174,7 @@ const Resume = () => {
           </AnimationOnScroll>
         </div>
         <div className="col">
-          <AnimationOnScroll animateIn="animate__backInRight">
+          <AnimationOnScroll animateIn="animate__backInRight" animateOnce>
             <ListGroup className="text-center resume-headline-CSS">
               Soft Skills:
             </ListGroup>

@@ -6,7 +6,7 @@
 
 .about-me-CSS {
   font-size: 35px;
-  margin: 35px 100px;
+  margin: 0px 100px;
 }
 
 .fade-in-zoom-in-CSS {
@@ -21,5 +21,94 @@
   50% {
     transform: scale(1, 1);
     opacity: 1;
+  }
+}
+
+
+/* Media Queries */
+
+/* Mobile View */
+@media only screen and (250px <= width <= 425px) {
+  .About-CSS {
+    font-size: 50px;
+    text-align: center;
+    margin: 35px;
+  }
+
+  .about-me-CSS {
+    font-size: 25px;
+    margin: 0px 25px;
+  }
+}
+
+
+@media only screen and (426px <= width <= 499px) {
+  .About-CSS {
+    font-size: 50px;
+    text-align: center;
+    margin: 35px;
+  }
+
+  .about-me-CSS {
+    font-size: 25px;
+    margin: 0px 25px;
+  }
+}
+
+
+@media only screen and (500px <= width <= 550px) {
+  .About-CSS {
+    font-size: 50px;
+    text-align: center;
+    margin: 35px;
+  }
+
+  .about-me-CSS {
+    font-size: 25px;
+    margin: 0px 25px;
+  }
+}
+
+
+@media only screen and (600px <= width <= 650px) {
+  .About-CSS {
+    font-size: 50px;
+    text-align: center;
+    margin: 35px;
+  }
+
+  .about-me-CSS {
+    font-size: 25px;
+    margin: 0px 25px;
+  }
+}
+
+
+@media only screen and (710px <= width <= 767px) {
+  .About-CSS {
+    font-size: 57px;
+    text-align: center;
+    margin: 35px;
+  }
+
+  .about-me-CSS {
+    font-size: 27px;
+    margin: 0px 25px;
+  }
+}
+
+
+
+/* Tablet View */
+@media only screen and (768px <= width <= 1120px) {
+  .About-CSS {
+    font-size: 70px;
+    text-align: center;
+    margin: 35px;
+  }
+
+  .about-me-CSS {
+    font-size: 35px;
+    margin: 0px 50px;
   }
 }

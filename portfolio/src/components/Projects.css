@@ -31,3 +31,115 @@
     opacity: 1;
   }
 }
+
+/* Media Queries */
+
+/* Mobile View */
+@media only screen and (250px <= width <= 425px) {
+  .Projects-CSS {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .projects-line-CSS {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .image2-CSS {
+    height: 175px;
+    width: 250px;
+  }
+}
+
+
+@media only screen and (426px <= width <= 499px) {
+  .Projects-CSS {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .projects-line-CSS {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .image2-CSS {
+    height: 200px;
+    width: 300px;
+  }
+}
+
+
+@media only screen and (500px <= width <= 550px) {
+  .Projects-CSS {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .projects-line-CSS {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .image2-CSS {
+    height: 200px;
+    width: 350px;
+  }
+}
+
+
+@media only screen and (600px <= width <= 650px) {
+  .Projects-CSS {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .projects-line-CSS {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .image2-CSS {
+    height: 225px;
+    width: 400px;
+  }
+}
+
+
+@media only screen and (710px <= width <= 767px) {
+  .Projects-CSS {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .projects-line-CSS {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .image2-CSS {
+    height: 225px;
+    width: 400px;
+  }
+}
+
+
+
+/* Tablet View */
+@media only screen and (768px <= width <= 1120px) {
+  .Projects-CSS {
+    font-size: 75px;
+    text-align: center;
+  }
+
+  .projects-line-CSS {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .image2-CSS {
+    height: 250px;
+    width: 450px;
+  }
+}
