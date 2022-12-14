@@ -39,7 +39,7 @@ const Resume = () => {
       </div>
       <br />
       <br />
-      <AnimationOnScroll animateIn="animate__backInLeft" animateOnce>
+      <AnimationOnScroll animateIn="animate__backInLeft" animateOnce="true">
         <h3 className="text-center resume-headline-CSS">
           Professional Experience:
         </h3>
@@ -88,7 +88,7 @@ const Resume = () => {
       </AnimationOnScroll>
       <br />
       <br />
-      <AnimationOnScroll animateIn="animate__backInRight" animateOnce>
+      <AnimationOnScroll animateIn="animate__backInRight" animateOnce="true">
         <h3 className="text-center resume-headline-CSS">
           Education Background:
         </h3>
@@ -113,7 +113,7 @@ const Resume = () => {
       <br />
       <div className="row g-3">
         <div className="col">
-          <AnimationOnScroll animateIn="animate__backInLeft" animateOnce>
+          <AnimationOnScroll animateIn="animate__backInLeft" animateOnce="true">
             <ListGroup className="text-center resume-headline-CSS">
               Hard Skills:
             </ListGroup>
@@ -176,7 +176,10 @@ const Resume = () => {
           </AnimationOnScroll>
         </div>
         <div className="col">
-          <AnimationOnScroll animateIn="animate__backInRight" animateOnce>
+          <AnimationOnScroll
+            animateIn="animate__backInRight"
+            animateOnce="true"
+          >
             <ListGroup className="text-center resume-headline-CSS">
               Soft Skills:
             </ListGroup>
@@ -238,7 +241,7 @@ const Resume = () => {
             </ListGroup>
           </AnimationOnScroll>
         </div>
-        <AnimationOnScroll animateIn="animate__zoomInDown" animateOnce>
+        <AnimationOnScroll animateIn="animate__zoomInDown" animateOnce="true">
           <div className="download-CSS">
             <a
               href="https://drive.google.com/u/0/uc?id=1FZ7KXHThlUaQwFdZFBGqL1c4tA_ClwBY&export=download"
