@@ -63,6 +63,16 @@
   }
 }
 
+.download-CSS {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px 0px;
+}
+
+.download-text-CSS {
+  font-size: 35px;
+}
+
 
 /* Media Queries */
 
@@ -87,6 +97,10 @@
     font-size: 20px;
     margin: 0px 15px;
   }
+
+  .download-text-CSS {
+    font-size: 20px;
+  }
 }
 
 
@@ -109,6 +123,10 @@
   .resume-line-CSS {
     font-size: 20px;
     margin: 0px 15px;
+  }
+
+  .download-text-CSS {
+    font-size: 20px;
   }
 }
 
@@ -133,6 +151,10 @@
     font-size: 20px;
     margin: 0px 15px;
   }
+
+  .download-text-CSS {
+    font-size: 20px;
+  }
 }
 
 
@@ -156,6 +178,10 @@
     font-size: 25px;
     margin: 0px 15px;
   }
+
+  .download-text-CSS {
+    font-size: 25px;
+  }
 }
 
 
@@ -178,6 +204,10 @@
   .resume-line-CSS {
     font-size: 25px;
     margin: 0px 20px;
+  }
+
+  .download-text-CSS {
+    font-size: 25px;
   }
 }
 
@@ -203,5 +233,9 @@
   .resume-line-CSS {
     font-size: 30px;
     margin: 0px 20px;
+  }
+
+  .download-text-CSS {
+    font-size: 30px;
   }
 }

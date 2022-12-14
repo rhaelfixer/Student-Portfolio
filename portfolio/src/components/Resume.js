@@ -1,8 +1,10 @@
 import React from "react";
 import pic from "../images/pic.jpg";
 import ListGroup from "react-bootstrap/ListGroup";
-import { AnimationOnScroll } from "react-animation-on-scroll";
 import ProgressBar from "react-bootstrap/ProgressBar";
+import Button from "react-bootstrap/Button";
+import { AnimationOnScroll } from "react-animation-on-scroll";
+import { FaDownload } from "react-icons/fa";
 
 
 // CSS
@@ -235,6 +237,16 @@ const Resume = () => {
               </ListGroup.Item>
             </ListGroup>
           </AnimationOnScroll>
+        </div>
+        <div className="download-CSS">
+          <a
+            href="https://drive.google.com/u/0/uc?id=1FZ7KXHThlUaQwFdZFBGqL1c4tA_ClwBY&export=download"
+            target="__blank"
+          >
+            <Button variant="primary" className="download-text-CSS">
+              <FaDownload></FaDownload>{" "}Download my Resume
+            </Button>
+          </a>
         </div>
       </div>
     </>
