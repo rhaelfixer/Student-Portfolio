@@ -238,16 +238,18 @@ const Resume = () => {
             </ListGroup>
           </AnimationOnScroll>
         </div>
-        <div className="download-CSS">
-          <a
-            href="https://drive.google.com/u/0/uc?id=1FZ7KXHThlUaQwFdZFBGqL1c4tA_ClwBY&export=download"
-            target="__blank"
-          >
-            <Button variant="primary" className="download-text-CSS">
-              <FaDownload></FaDownload>{" "}Download my Resume
-            </Button>
-          </a>
-        </div>
+        <AnimationOnScroll animateIn="animate__zoomInDown" animateOnce>
+          <div className="download-CSS">
+            <a
+              href="https://drive.google.com/u/0/uc?id=1FZ7KXHThlUaQwFdZFBGqL1c4tA_ClwBY&export=download"
+              target="__blank"
+            >
+              <Button variant="primary" className="download-text-CSS">
+                <FaDownload></FaDownload> Download my Resume
+              </Button>
+            </a>
+          </div>
+        </AnimationOnScroll>
       </div>
     </>
   );
