@@ -244,7 +244,7 @@ const Resume = () => {
         <AnimationOnScroll animateIn="animate__zoomInDown" animateOnce="true">
           <div className="download-CSS">
             <a
-              href="https://drive.google.com/u/0/uc?id=1FZ7KXHThlUaQwFdZFBGqL1c4tA_ClwBY&export=download"
+              href="https://drive.google.com/u/0/uc?id=1u-_ZtrLM_6YxqAMiOM6rf2jwgWt-n947&export=download"
               target="__blank"
             >
               <Button variant="primary" className="download-text-CSS">
